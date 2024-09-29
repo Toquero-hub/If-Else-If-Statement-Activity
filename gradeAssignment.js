@@ -1,3 +1,8 @@
+"use strict";
+
+const ps = require("prompt-sync");
+const prompt = ps();
+
 // Prompt the user to enter their score
 let score = prompt("Enter your score:");
 
